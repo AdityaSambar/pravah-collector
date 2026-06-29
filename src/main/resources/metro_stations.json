@@ -1,0 +1,1627 @@
+{
+  "meta": {
+    "city": "Bengaluru",
+    "generated": "2026-06-28",
+    "notes": [
+      "Coordinates are placeholders (null) \u2014 fill manually by right-clicking station entrances on Google Maps",
+      "For stations with exits on both sides of the road, add additional entries in the exits array with the same station weight",
+      "All exit coordinates for a single station carry equal weight when selected by the route worker",
+      "Pink Line Phase 1 (elevated, 6 stations) targeting August 15 2026 opening \u2014 CMRS inspection pending as of June 2026",
+      "Pink Line Phase 2 (underground, 12 stations) targeted December 2026",
+      "status field: 'operational' | 'upcoming_p1' | 'upcoming_p2'"
+    ]
+  },
+  "lines": {
+    "purple": {
+      "name": "Purple Line",
+      "aka": "East-West Corridor",
+      "terminals": [
+        "Whitefield (Kadugodi)",
+        "Challaghatta"
+      ],
+      "status": "operational",
+      "stations": [
+        {
+          "id": "PL01",
+          "name": "Whitefield (Kadugodi)",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "Gate A",
+              "lat": 12.995113563386296,
+              "lng": 77.75790231793738
+            },
+            {
+              "label": "Gate B",
+              "lat": 12.995825814527493,
+              "lng": 77.7581750933655
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL02",
+          "name": "Kadugodi Tree Park",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL03",
+          "name": "Pattandur Agrahara",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL04",
+          "name": "Sri Sathya Sai Hospital",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL05",
+          "name": "Nallurhalli",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL06",
+          "name": "Kundalahalli",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL07",
+          "name": "Seetharamapalya",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL08",
+          "name": "Hoodi",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL09",
+          "name": "Garudacharpalya",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL10",
+          "name": "Singayyanapalya",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL11",
+          "name": "KR Puram",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL12",
+          "name": "Benniganahalli",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL13",
+          "name": "Baiyappanahalli",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL14",
+          "name": "Swami Vivekananda Road",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL15",
+          "name": "Indiranagar",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "Gate A",
+              "lat": 12.97833815623561,
+              "lng": 77.63851958955334
+            },
+            {
+              "label": "Gate B",
+              "lat": 12.978207281415825,
+              "lng": 77.63932859575812
+            },
+            {
+              "label": "Gate C",
+              "lat": 12.97820044422534,
+              "lng": 77.63892372104958
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL16",
+          "name": "Halasuru",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL17",
+          "name": "Trinity",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL18",
+          "name": "Mahatma Gandhi Road",
+          "status": "operational",
+          "underground": true,
+          "interchange": [
+            "pink"
+          ],
+          "exits": [
+            {
+              "label": "brigade_road_side",
+              "lat": null,
+              "lng": null
+            },
+            {
+              "label": "ulsoor_side",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL19",
+          "name": "Cubbon Park",
+          "status": "operational",
+          "underground": true,
+          "exits": [
+            {
+              "label": "Gate D",
+              "lat": 12.98096332466441,
+              "lng": 77.59697754891339
+            },
+            {
+              "label": "Gate C",
+              "lat": 12.981087590953134,
+              "lng": 77.59657200840964
+            },
+            {
+              "label": "Gate A",
+              "lat": 12.980751574101497,
+              "lng": 77.5983712132893
+            }
+          ],
+          "line": "purple",
+          "note": "You should visit this station once to verify the exits"
+        },
+        {
+          "id": "PL20",
+          "name": "Sir M. Visveshwaraya Station, Central College",
+          "status": "operational",
+          "underground": true,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL21",
+          "name": "Nadaprabhu Kempegowda Station, Majestic",
+          "status": "operational",
+          "underground": true,
+          "interchange": [
+            "green"
+          ],
+          "exits": [
+            {
+              "label": "majestic_north",
+              "lat": null,
+              "lng": null
+            },
+            {
+              "label": "majestic_south",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL22",
+          "name": "Krantivira Sangolli Rayanna Railway Station",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL23",
+          "name": "Magadi Road",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL24",
+          "name": "Hosahalli",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL25",
+          "name": "Vijayanagar",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL26",
+          "name": "Attiguppe",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL27",
+          "name": "Deepanjali Nagar",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL28",
+          "name": "Mysuru Road",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL29",
+          "name": "Nayandahalli",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL30",
+          "name": "Rajarajeshwari Nagar",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL31",
+          "name": "Jnana Bharathi",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL32",
+          "name": "Pattanagere",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL33",
+          "name": "Kengeri Bus Terminal",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL34",
+          "name": "Kengeri",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        },
+        {
+          "id": "PL35",
+          "name": "Challaghatta",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "purple"
+        }
+      ]
+    },
+    "green": {
+      "name": "Green Line",
+      "aka": "North-South Corridor",
+      "terminals": [
+        "Madavara",
+        "Silk Institute"
+      ],
+      "status": "operational",
+      "stations": [
+        {
+          "id": "GL01",
+          "name": "Madavara",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL02",
+          "name": "Chikkabidarakallu",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL03",
+          "name": "Manjunathanagar",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL04",
+          "name": "Nagasandra",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL05",
+          "name": "Dasarahalli",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL06",
+          "name": "Jalahalli",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL07",
+          "name": "Peenya Industry",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL08",
+          "name": "Peenya",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL09",
+          "name": "Goraguntepalya",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL10",
+          "name": "Yeshwanthpur",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL11",
+          "name": "Sandal Soap Factory",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL12",
+          "name": "Mahalakshmi",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL13",
+          "name": "Rajajinagar",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL14",
+          "name": "Kuvempu Road",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL15",
+          "name": "Srirampura",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL16",
+          "name": "Mantri Square Sampige Road",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL17",
+          "name": "Nadaprabhu Kempegowda Station, Majestic",
+          "status": "operational",
+          "underground": false,
+          "interchange": [
+            "purple"
+          ],
+          "exits": [
+            {
+              "label": "majestic_east",
+              "lat": null,
+              "lng": null
+            },
+            {
+              "label": "majestic_west",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "note": "Same physical complex as Purple Line Majestic, different platform level",
+          "line": "green"
+        },
+        {
+          "id": "GL18",
+          "name": "City Railway Station",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL19",
+          "name": "Magadi Road",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL20",
+          "name": "Hosapete Road",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL21",
+          "name": "Vijayanagar",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL22",
+          "name": "Chickpete",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL23",
+          "name": "Krishna Rajendra Market",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL24",
+          "name": "National College",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL25",
+          "name": "Lalbagh",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL26",
+          "name": "South End Circle",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL27",
+          "name": "Jayanagar",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL28",
+          "name": "Rashtreeya Vidyalaya Road",
+          "status": "operational",
+          "underground": false,
+          "interchange": [
+            "yellow"
+          ],
+          "exits": [
+            {
+              "label": "main",
+              "lat": 12.920937027836668,
+              "lng": 77.5803799508592
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL29",
+          "name": "Banashankari",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL30",
+          "name": "Jaya Prakash Nagar",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL31",
+          "name": "Yelachenahalli",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL32",
+          "name": "Konanakunte Cross",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL33",
+          "name": "Doddakallasandra",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL34",
+          "name": "Vajarahalli",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL35",
+          "name": "Thalaghattapura",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        },
+        {
+          "id": "GL36",
+          "name": "Silk Institute",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "green"
+        }
+      ]
+    },
+    "yellow": {
+      "name": "Yellow Line",
+      "terminals": [
+        "Rashtreeya Vidyalaya Road",
+        "Delta Electronics Bommasandra"
+      ],
+      "status": "operational",
+      "inaugurated": "2025-08-11",
+      "stations": [
+        {
+          "id": "YL01",
+          "name": "Rashtreeya Vidyalaya Road",
+          "status": "operational",
+          "underground": false,
+          "interchange": [
+            "green"
+          ],
+          "exits": [
+            {
+              "label": "main",
+              "lat": 12.920937027836668,
+              "lng": 77.5803799508592
+            }
+          ],
+          "line": "yellow"
+        },
+        {
+          "id": "YL02",
+          "name": "Ragigudda",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "yellow"
+        },
+        {
+          "id": "YL03",
+          "name": "Jayadeva Hospital",
+          "status": "operational",
+          "underground": false,
+          "interchange": [
+            "pink"
+          ],
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "yellow"
+        },
+        {
+          "id": "YL04",
+          "name": "BTM Layout",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "yellow"
+        },
+        {
+          "id": "YL05",
+          "name": "Central Silk Board",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "yellow"
+        },
+        {
+          "id": "YL06",
+          "name": "HSR Layout",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "yellow"
+        },
+        {
+          "id": "YL07",
+          "name": "Agara",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "yellow"
+        },
+        {
+          "id": "YL08",
+          "name": "Hongasandra",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "yellow"
+        },
+        {
+          "id": "YL09",
+          "name": "Bommanahalli",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "yellow"
+        },
+        {
+          "id": "YL10",
+          "name": "Singasandra",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "yellow"
+        },
+        {
+          "id": "YL11",
+          "name": "Hosa Road",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "yellow"
+        },
+        {
+          "id": "YL12",
+          "name": "Electronic City",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "yellow"
+        },
+        {
+          "id": "YL13",
+          "name": "Infosys Foundation Konappana Agrahara",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "yellow"
+        },
+        {
+          "id": "YL14",
+          "name": "Electronic City Phase 1",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "yellow"
+        },
+        {
+          "id": "YL15",
+          "name": "Hebbagodi",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "yellow"
+        },
+        {
+          "id": "YL16",
+          "name": "Delta Electronics Bommasandra",
+          "status": "operational",
+          "underground": false,
+          "exits": [
+            {
+              "label": "main",
+              "lat": null,
+              "lng": null
+            }
+          ],
+          "line": "yellow"
+        }
+      ]
+    },
+    "pink": {
+      "name": "Pink Line",
+      "terminals": [
+        "Kalena Agrahara",
+        "Nagawara"
+      ],
+      "total_stations": 18,
+      "notes": "Line opens in two phases. Phase 1 (elevated, 6 stations) targeting August 15 2026. Phase 2 (underground, 12 stations) targeting December 2026. Coordinates should be added as each phase opens.",
+      "phases": {
+        "phase1": {
+          "status": "upcoming_p1",
+          "section": "Kalena Agrahara \u2192 Tavarekere",
+          "length_km": 7.5,
+          "type": "elevated",
+          "target_opening": "2026-08-15",
+          "stations": [
+            {
+              "id": "PK01",
+              "name": "Kalena Agrahara",
+              "status": "upcoming_p1",
+              "underground": false,
+              "exits": [
+                {
+                  "label": "main",
+                  "lat": null,
+                  "lng": null
+                }
+              ],
+              "line": "pink"
+            },
+            {
+              "id": "PK02",
+              "name": "Hulimavu",
+              "status": "upcoming_p1",
+              "underground": false,
+              "exits": [
+                {
+                  "label": "right_placeholder",
+                  "lat": 12.880448452990217,
+                  "lng": 77.59584880489807
+                },
+                {
+                  "label": "left_placeholder",
+                  "lat": 12.88017433574067,
+                  "lng": 77.59565316747528
+                }
+              ],
+              "line": "pink",
+              "note": "Hard to make out the individual exits through street view, wait for completion"
+            },
+            {
+              "id": "PK03",
+              "name": "IIM Bangalore",
+              "status": "upcoming_p1",
+              "underground": false,
+              "exits": [
+                {
+                  "label": "main",
+                  "lat": null,
+                  "lng": null
+                }
+              ],
+              "line": "pink"
+            },
+            {
+              "id": "PK04",
+              "name": "JP Nagar 4th Phase",
+              "status": "upcoming_p1",
+              "underground": false,
+              "exits": [
+                {
+                  "label": "main",
+                  "lat": null,
+                  "lng": null
+                }
+              ],
+              "line": "pink"
+            },
+            {
+              "id": "PK05",
+              "name": "Jayadeva Hospital",
+              "status": "upcoming_p1",
+              "underground": false,
+              "interchange": [
+                "yellow"
+              ],
+              "note": "Pink Line platform at Jayadeva \u2014 separate from Yellow Line platform",
+              "exits": [
+                {
+                  "label": "main",
+                  "lat": null,
+                  "lng": null
+                }
+              ],
+              "line": "pink"
+            },
+            {
+              "id": "PK06",
+              "name": "Tavarekere",
+              "status": "upcoming_p1",
+              "underground": false,
+              "exits": [
+                {
+                  "label": "main",
+                  "lat": null,
+                  "lng": null
+                }
+              ],
+              "line": "pink"
+            }
+          ]
+        },
+        "phase2": {
+          "status": "upcoming_p2",
+          "section": "Dairy Circle \u2192 Nagawara",
+          "length_km": 13.76,
+          "type": "underground",
+          "target_opening": "2026-12",
+          "stations": [
+            {
+              "id": "PK07",
+              "name": "Dairy Circle",
+              "status": "upcoming_p2",
+              "underground": true,
+              "exits": [
+                {
+                  "label": "main",
+                  "lat": null,
+                  "lng": null
+                }
+              ],
+              "line": "pink"
+            },
+            {
+              "id": "PK08",
+              "name": "Lakkasandra",
+              "status": "upcoming_p2",
+              "underground": true,
+              "exits": [
+                {
+                  "label": "main",
+                  "lat": null,
+                  "lng": null
+                }
+              ],
+              "line": "pink"
+            },
+            {
+              "id": "PK09",
+              "name": "Langford Town",
+              "status": "upcoming_p2",
+              "underground": true,
+              "exits": [
+                {
+                  "label": "main",
+                  "lat": null,
+                  "lng": null
+                }
+              ],
+              "line": "pink"
+            },
+            {
+              "id": "PK10",
+              "name": "Rashtriya Military School",
+              "status": "upcoming_p2",
+              "underground": true,
+              "exits": [
+                {
+                  "label": "main",
+                  "lat": null,
+                  "lng": null
+                }
+              ],
+              "line": "pink"
+            },
+            {
+              "id": "PK11",
+              "name": "Mahatma Gandhi Road",
+              "status": "upcoming_p2",
+              "underground": true,
+              "interchange": [
+                "purple"
+              ],
+              "note": "Pink Line underground station at MG Road \u2014 interchange with Purple Line MG Road",
+              "exits": [
+                {
+                  "label": "brigade_road_side",
+                  "lat": null,
+                  "lng": null
+                },
+                {
+                  "label": "ulsoor_side",
+                  "lat": null,
+                  "lng": null
+                }
+              ],
+              "line": "pink"
+            },
+            {
+              "id": "PK12",
+              "name": "Shivaji Nagar",
+              "status": "upcoming_p2",
+              "underground": true,
+              "exits": [
+                {
+                  "label": "main",
+                  "lat": null,
+                  "lng": null
+                }
+              ],
+              "line": "pink"
+            },
+            {
+              "id": "PK13",
+              "name": "Cantonment",
+              "status": "upcoming_p2",
+              "underground": true,
+              "exits": [
+                {
+                  "label": "main",
+                  "lat": null,
+                  "lng": null
+                }
+              ],
+              "line": "pink"
+            },
+            {
+              "id": "PK14",
+              "name": "Pottery Town",
+              "status": "upcoming_p2",
+              "underground": true,
+              "exits": [
+                {
+                  "label": "main",
+                  "lat": null,
+                  "lng": null
+                }
+              ],
+              "line": "pink"
+            },
+            {
+              "id": "PK15",
+              "name": "Tannery Road",
+              "status": "upcoming_p2",
+              "underground": true,
+              "exits": [
+                {
+                  "label": "main",
+                  "lat": null,
+                  "lng": null
+                }
+              ],
+              "line": "pink"
+            },
+            {
+              "id": "PK16",
+              "name": "Venkateshpura",
+              "status": "upcoming_p2",
+              "underground": true,
+              "exits": [
+                {
+                  "label": "main",
+                  "lat": null,
+                  "lng": null
+                }
+              ],
+              "line": "pink"
+            },
+            {
+              "id": "PK17",
+              "name": "Kadugondanahalli",
+              "status": "upcoming_p2",
+              "underground": true,
+              "exits": [
+                {
+                  "label": "main",
+                  "lat": null,
+                  "lng": null
+                }
+              ],
+              "line": "pink"
+            },
+            {
+              "id": "PK18",
+              "name": "Nagawara",
+              "status": "upcoming_p2",
+              "underground": true,
+              "exits": [
+                {
+                  "label": "main",
+                  "lat": null,
+                  "lng": null
+                }
+              ],
+              "line": "pink"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

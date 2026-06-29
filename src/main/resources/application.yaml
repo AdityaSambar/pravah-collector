@@ -1,3 +1,5 @@
 spring:
   application:
     name: collector
+server:
+  port: 8080
